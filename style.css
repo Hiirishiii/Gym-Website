@@ -1,0 +1,186 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    background-image: url('img1.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 120;
+    padding: 120;
+    justify-content: space-between;
+    align-items: center;
+    object-position: 100%;
+    top:0;
+    width:100%;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  /* Home Section */
+  #home {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 100px 0;
+  }
+  header img {
+    height: 40px;
+  }
+  
+  #home h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #home p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* About Section */
+  #about {
+    background-color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  #about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Services Section */
+  #services {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  #services h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  #services ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #services ul li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  /* Contact Section */
+  #contact {
+    background-color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  #contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  form input,
+  form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Media Queries */
+  @media screen and (max-width: 768px) {
+    .container {
+      max-width: 100%;
+      padding: 10px;
+    }
+  }
+  /* Services Section */
+  #services {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  #services h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .service {
+    margin: 20px;
+  }
+  
+  .service img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .service h3 {
+    font-size: 24px;
+    margin-top: 10px;
